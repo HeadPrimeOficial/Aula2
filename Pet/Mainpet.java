@@ -4,11 +4,12 @@ public class Mainpet {
 public static void main(String[] args) {
 Scanner sc = new Scanner (System.in);
 
-
+int y=0;
+int Y=0;
 
 System.out.println("\n\n BEM VINDO AO PETPRIME\n\n");
 
-do{
+
 System.out.println("\nDigite o nome do Pet!!\n");
 String nome = sc.next();
 
@@ -20,6 +21,7 @@ String raca = sc.next();
 
 System.out.println("\n Digite o porte do seu Pet, classificados em P M G");
 String porte = sc.next();
+
 
 System.out.println("\nQual a alimentacao do seu pet");
 String alimentacao = sc.next();
@@ -34,6 +36,6 @@ System.out.println("A alimentacao é:" +pet1.getAlimentacao());
 
 System.out.println("HORA DE FAZER UM NOVO CADASTRO DIGITE Y PARA CADASTRAR SEU NOVO PET E N PARA NAO");
 String op= sc.next();
-}WHILE(op==Y || op==y);
+
 }
 }
