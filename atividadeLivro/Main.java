@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);    
     
-
+int contador=0;
 do{
 
 
@@ -27,12 +27,12 @@ Double preco=sc.nextDouble();
 Livro livro1= new Livro(nomeDoLivro,autor,paginas,preco);
 
 
-System.out.println("Nome do livro"+ livro1.getTitulo());
+System.out.println("\n\n Nome do livro"+ livro1.getTitulo());
 System.out.println("O nome do Autor é "+ livro1.getAutor());
 System.out.println("Nome do livro é "+ livro1.getNumeroDePaginas());
 System.out.println("O nome do livro é  \n"+ livro1.getPreco());
 
-contador++;
+ contador++;
 
 }while(contador <2 );
 
