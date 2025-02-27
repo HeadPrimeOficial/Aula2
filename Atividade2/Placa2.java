@@ -18,7 +18,7 @@ public void setSoquet(String soquet) {
 
 @Override
 public String toString() {
-    return "Placa2 [marca=" + marca + ", soquet=" + soquet + ", modelo=" + modelo + "]";
+    return "\nPlaca2 [marca=" + marca + ", \nsoquet=" + soquet + ", \n\nmodelo=" + modelo + "]";
 }
 
 

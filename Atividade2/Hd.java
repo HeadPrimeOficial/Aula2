@@ -34,8 +34,8 @@ public void setTipoConexao(String tipoConexao) {
 
 @Override
 public String toString() {
-    return "Hd [capacidadeArmazenamento=" + capacidadeArmazenamento + ", marca=" + marca + ", modelo=" + modelo
-            + ", tipoConexao=" + tipoConexao + "]";
+    return "\nHd [capacidadeArmazenamento=" + capacidadeArmazenamento + ", \nmarca=" + marca + ", \nmodelo=" + modelo
+            + ", \n\ntipoConexao=" + tipoConexao + "]";
 }
 
 

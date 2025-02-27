@@ -28,8 +28,8 @@ public class Memoria2 extends Hadware2{
 
     @Override
     public String toString() {
-        return "Memoria2 [marca=" + marca + ", capacidadeArmazenamento=" + capacidadeArmazenamento + ", modelo="
-                + modelo + ", frequencia=" + frequencia + "]";
+        return "\nMemoria2 [marca=" + marca + ", \ncapacidadeArmazenamento=" + capacidadeArmazenamento + ", \nmodelo="
+                + modelo + ", \n\nfrequencia=" + frequencia + "]";
     }
 
   
